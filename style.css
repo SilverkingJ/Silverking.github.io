@@ -1,0 +1,16 @@
+body{
+  background-color: pink;
+  text-align: center;
+}
+
+.grid-container{
+  display: grid;
+  grid-gap: 5px;
+  padding: 20px;
+}
+
+.grid-item{
+  border: solid 2px;
+  background-color: orange;
+  padding: 4px;
+}

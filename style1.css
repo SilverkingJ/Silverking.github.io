@@ -1,0 +1,154 @@
+body{
+  background-color: #B0E0E6;
+  position: relative;
+}
+
+header{
+  text-align:center;
+}
+
+main{
+  position: relative;
+  width: 100%;
+}
+
+#title{
+    padding: 1px 10px;
+    text-align: center;
+}
+
+img{
+
+}
+
+h1{
+  padding: 1px 45px;
+  font-family: cursive;
+}
+
+h2{
+  padding: 1px 15px;
+  text-align: center;
+  font-family: cursive;
+}
+
+h3{
+  padding: 1px 45px;
+  font-family: cursive;
+  font-size: 25px;
+}
+
+h4{
+  padding: 7px;
+  font-family: cursive;
+  background-color: #87CEFA;
+  text-align: left;
+}
+
+h5{
+
+  padding: 1px 25px;
+  font-family: cursive;
+  font-size: 20px;
+  background-color: #87CEFA;
+
+}
+
+p{
+  padding: 7px;
+  font-family: cursive;
+  background-color: #87CEFA;
+  text-align: center;
+
+}
+img{
+  height:500px;
+  width: 800px;
+}
+
+#me {
+  height: 450px;
+  width: 400px;
+  margin: auto;
+  display: block;
+}
+ul{
+  list-style-type: none;
+  overflow: hidden;
+  border: 1px solid #686868;
+}
+
+li{
+  font-size: 20px;
+  padding: 10px;
+  font-family: cursive;
+
+}
+nav a {
+    display: inline-block;
+    margin: 5px 30px 30px 30px;
+    border-radius: 7px;
+    text-decoration: none;
+    background-color: #1E90FF;
+    padding: 10px;
+    font-size: 20px;
+    width: 15%;
+    color: black;
+}
+a {
+    text-align: center;
+}
+
+nav a:hover {
+  background-color: #87CEFA;
+}
+
+footer img{
+  height:50px;
+  width: 55px;
+  text-align: center;
+
+}
+
+footer{
+  text-align: center;
+}
+
+.button{
+  background-color:#1E90FF;
+  padding: 14px 16px;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+}
+#gallery{
+  display: block;
+   width: 100%;
+   text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 32.7%;
+  padding: 5px;
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ height: 1%;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
